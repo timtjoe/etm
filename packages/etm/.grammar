@@ -1,0 +1,14 @@
+  /*css*/
+  .page{
+  color: red;
+  font-size: 1.5em;
+  line-height: 1.7em .etm
+  }
+
+  //javascript
+  :if .page.color = red ? +=font-size;
+  :begin a javascript expression/statement follow by a keworkd
+  ;ends a javascript expression/statement follow by .etm ext
+
+   <--html-->
+   <p>hello world</p>

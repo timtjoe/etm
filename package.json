@@ -1,12 +1,13 @@
 {
-  "name": "etm",
-  "version": "0.0.3",
-  "description": "A HTML-in-JS-in-CSS Reactive UI Framework",
+  "name": "etm-framework",
+  "version": "0.0.1",
+  "description": "monorepo for the etm framework",
   "keywords": [
+    "UI",
     "Framework",
-    "TypeScript"
+    "HTML-In-JS-in-CSS"
   ],
-  "homepage": "https://github.com/timtjoe/etm#readme",
+  "homepage": "https://etm.dev/",
   "bugs": {
     "url": "https://github.com/timtjoe/etm/issues"
   },
@@ -17,11 +18,12 @@
   "license": "MIT",
   "author": "timtjoe",
   "type": "module",
-  "main": "index.ts",
-  "bin": {
-    "etm": "./cli/index.js"
-  },
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "workspaces": [
+    "packages/etm",
+    "packages/create-etm"
+  ]
 }

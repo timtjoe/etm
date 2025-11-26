@@ -1,0 +1,13 @@
+{
+  "name": "etm",
+  "version": "0.0.4",
+  "description": "A native-first Client-side UI Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Native", "Framework", "Client-side"],
+  "author": "",
+  "license": "MIT",
+  "type": "module"
+}
