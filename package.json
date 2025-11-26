@@ -1,0 +1,27 @@
+{
+  "name": "etm",
+  "version": "0.0.2",
+  "description": "A HTML-in-JS-in-CSS Reactive UI Framework",
+  "keywords": [
+    "Framework",
+    "TypeScript"
+  ],
+  "homepage": "https://github.com/timtjoe/etm#readme",
+  "bugs": {
+    "url": "https://github.com/timtjoe/etm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timtjoe/etm.git"
+  },
+  "license": "MIT",
+  "author": "timtjoe",
+  "type": "module",
+  "main": "index.ts",
+  "bin": {
+    "etm": "./cli/index.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
